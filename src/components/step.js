@@ -31,19 +31,20 @@ export const Step = () => {
                 height="24"
               />
             </svg>
-            <span className="relative">The</span>
-          </span>{' '}
-          quick, brown fox jumps over a lazy dog
+            <span className="relative">Exclusive</span>
+          </span>{" "}
+          3-Step process to Shortlist talented Candidates
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          Experience an advanced hiring process with our AI-powered 3-step
+          shortlisting approach designed to bring you the best and most talented
+          candidates for your business needs.
         </p>
       </div>
       <div className="grid gap-10 lg:grid-cols-4 sm:grid-cols-2">
         <div>
           <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Step 1</p>
+            <p className="text-2xl font-bold">Resume Shortlisting</p>
             <svg
               className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
               stroke="currentColor"
@@ -68,13 +69,12 @@ export const Step = () => {
             </svg>
           </div>
           <p className="text-gray-600">
-            If one examines precultural libertarianism, one is faced with a
-            choice: either accept rationalism or conclude that context.
+            Our AI algorithm shortlists candidates based on some basic criteria.
           </p>
         </div>
         <div>
           <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Step 2</p>
+            <p className="text-2xl font-bold"> Assignment</p>
             <svg
               className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
               stroke="currentColor"
@@ -99,13 +99,13 @@ export const Step = () => {
             </svg>
           </div>
           <p className="text-gray-600">
-            That is the true genius of America - a faith in simple dreams, an
-            insistence on small miracles.
+            Candidates are given AI-generated assignments related to their
+            field, which are automatically checked.
           </p>
         </div>
         <div>
           <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Step 3</p>
+            <p className="text-2xl font-bold">Technical Interview</p>
             <svg
               className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
               stroke="currentColor"
@@ -130,13 +130,13 @@ export const Step = () => {
             </svg>
           </div>
           <p className="text-gray-600">
-            Those options are already baked in with this model shoot me an email
-            clear blue water but we need distributors.
+            We conduct a technical interview with top candidates to ensure the
+            best fit for your organization.
           </p>
         </div>
         <div>
           <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Success</p>
+            <p className="text-2xl font-bold">Selected!</p>
             <svg
               className="w-8 text-gray-600"
               stroke="currentColor"
@@ -153,8 +153,8 @@ export const Step = () => {
             </svg>
           </div>
           <p className="text-gray-600">
-            Lookout flogging bilge rat main sheet bilge water nipper fluke to go
-            on account heave down clap of thunder.
+            Get the best talent in the industry with our 3-step process. Sign up
+            today!
           </p>
         </div>
       </div>
