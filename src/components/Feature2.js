@@ -3,9 +3,9 @@ export const Feature2 = () => {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+            {/* <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
               Brand new
-            </p>
+            </p> */}
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
@@ -31,13 +31,12 @@ export const Feature2 = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative">The</span>
+              <span className="relative">Why</span>
             </span>{' '}
-            quick, brown fox jumps over a lazy dog
+            Choose us?
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+          The Benefits of Our AI-based Solution
           </p>
         </div>
         <div className="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl">
@@ -58,7 +57,7 @@ export const Feature2 = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              Change the world by being yourself.
+            Time-Saving Efficiency
             </span>
           </div>
           <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
@@ -78,7 +77,7 @@ export const Feature2 = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              Die with memories, not dreams.
+            Enhanced Candidate Quality
             </span>
           </div>
           <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
@@ -98,7 +97,7 @@ export const Feature2 = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              What we think, we become.
+            User-Friendly Platform
             </span>
           </div>
           <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
@@ -118,7 +117,7 @@ export const Feature2 = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              Be so good they can’t ignore you.
+            Cost-Effective Solution
             </span>
           </div>
           <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
@@ -138,7 +137,7 @@ export const Feature2 = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              Simplicity is the ultimate sophistication.
+            Data-Driven Insights
             </span>
           </div>
           <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
@@ -158,7 +157,7 @@ export const Feature2 = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              Yesterday you said tomorrow. Just do it today.
+              Best Community of Skilled Candidates
             </span>
           </div>
         </div>
