@@ -35,18 +35,8 @@ export const Nav = () => {
             <li>
               <a
                 href="/"
-                aria-label="Our product"
-                title="Our product"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              >
-                Product
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
+                aria-label="Our Feature"
+                title="Our Feature"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Features
@@ -55,34 +45,48 @@ export const Nav = () => {
             <li>
               <a
                 href="/"
-                aria-label="Product pricing"
-                title="Product pricing"
+                aria-label="Why to choose us?"
+                title="Why to choose us?"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Pricing
+                Why us?
               </a>
             </li>
             <li>
               <a
                 href="/"
-                aria-label="About us"
-                title="About us"
+                aria-label="3 Step Process"
+                title="3 Step Process"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                About us
+                3-Step Process
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                aria-label="Our Team"
+                title="Our Team"
+                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >
+                Team
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                aria-label="Our Achievements"
+                title="Our Achievements"
+                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >  
+                Achievements
               </a>
             </li>
           </ul>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
-              >
-                Sign up
-              </a>
+              {/*  We can add login or signup in this sections */}
+              
             </li>
           </ul>
           <div class="lg:hidden">
