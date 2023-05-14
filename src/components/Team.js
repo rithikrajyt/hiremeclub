@@ -1,21 +1,45 @@
 import img2 from "../images/83706503.png";
 import img3 from "../images/WhatsApp Image 2023-05-10 at 4.57.56 PM.jpeg";
 
-
 export const Team = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="mx-auto mb-10 lg:max-w-xl sm:text-center">
-        <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-          Know Our Team
-        </p>
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <span className="relative inline-block">
+            <svg
+              viewBox="0 0 52 24"
+              fill="currentColor"
+              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+            >
+              <defs>
+                <pattern
+                  id="b902cd03-49cc-4166-a0ae-4ca1c31cedba"
+                  x="0"
+                  y="0"
+                  width=".135"
+                  height=".30"
+                >
+                  <circle cx="1" cy="1" r=".7" />
+                </pattern>
+              </defs>
+              <rect
+                fill="url(#b902cd03-49cc-4166-a0ae-4ca1c31cedba)"
+                width="52"
+                height="24"
+              />
+            </svg>
+            <span className="relative">Our</span>
+          </span>{" "}
+          Team
+        </h2>
         <p className="text-base text-gray-700 md:text-lg">
-        Driving Innovation and Success
+          Driving Innovation and Success
         </p>
       </div>
       <div className="grid gap-10 mx-auto lg:grid-cols-2 lg:max-w-screen-lg">
         <div className="grid sm:grid-cols-3">
-          <div className="relative w-full h-48 max-h-full rounded shadow sm:h-auto">
+          <div className="relative w-full h-48 max-h-full rounded shadow-2xl sm:h-auto">
             <img
               className="absolute object-cover w-full h-full rounded"
               src={img2}
@@ -26,10 +50,12 @@ export const Team = () => {
             <p className="text-lg font-bold">Rithik Raj Pandey</p>
             <p className="mb-4 text-xs text-gray-800">Co-Founder, CEO</p>
             <p className="mb-4 text-sm tracking-wide text-gray-800">
-              Rithik is a visionary leader with a passion for revolutionizing
-              the hiring industry. With his expertise in the Startup industry, he
-              has been instrumental in driving the growth and success of our
-              startup.
+            <span style={{ fontWeight: 'bold' }}>Rithik Raj Pandey</span>, a passionate startup enthusiast, has played a
+              vital role in the success and growth of two Indian startups. With
+              expertise in business development, Rithik has built a thriving
+              YouTube channel with 25,000 subscribers. He has also excelled in
+              various hackathons, showcasing his problem-solving abilities
+              through technology.
             </p>
             <div className="flex items-center space-x-3">
               <a
@@ -52,7 +78,7 @@ export const Team = () => {
           </div>
         </div>
         <div className="grid sm:grid-cols-3">
-          <div className="relative w-full h-48 max-h-full rounded shadow sm:h-auto">
+          <div className="relative w-full h-48 max-h-full rounded shadow-2xl sm:h-auto">
             <img
               className="absolute object-cover w-full h-full rounded"
               src={img3}
@@ -63,10 +89,10 @@ export const Team = () => {
             <p className="text-lg font-bold">Sarthak khandelwal</p>
             <p className="mb-4 text-xs text-gray-800">Co-Founder, CTO</p>
             <p className="mb-4 text-sm tracking-wide text-gray-800">
-              As our CTO, Sarthak brings extensive technical knowledge and
-              innovation to our team. With a background in Web Development, he
-              leads our technological advancements and ensures our platform
-              remains cutting-edge.
+              As our CTO, <span style={{ fontWeight: 'bold' }}>Sarthak Khandelwal</span>, a tech innovator, excels in
+              complex challenges. Winner of Mercedes-Benz hackathon, finalist in
+              Smart India Hackathon, and other hackathons. Consistently
+              showcases problem-solving, teamwork, and cutting-edge tech skills.
             </p>
             <div className="flex items-center space-x-3">
               <a
