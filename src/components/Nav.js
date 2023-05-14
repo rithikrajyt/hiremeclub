@@ -38,7 +38,7 @@ export const Nav = () => {
               to="Feature" spy={true} smooth={true} offset={50} duration={500} delay={100}
               aria-label="Our Feature"
               title="Our Feature"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-blue-500 hover:text-red-500 cursor-pointer transition duration-300"
             >
               Features
             </Link>
@@ -48,7 +48,7 @@ export const Nav = () => {
               to="Why" spy={true} smooth={true} offset={50} duration={500} delay={100}
               aria-label="Why to choose us?"
               title="Why to choose us?"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-blue-500 hover:text-red-500 cursor-pointer transition duration-300"
             >
               Why us?
             </Link>
@@ -58,7 +58,7 @@ export const Nav = () => {
               to="Step" spy={true} smooth={true} offset={50} duration={500} delay={100}
               aria-label="3 Step Process"
               title="3 Step Process"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-blue-500 hover:text-red-500 cursor-pointer transition duration-300"
             >
               3-Step Process
             </Link>
@@ -68,7 +68,7 @@ export const Nav = () => {
               to="Team" spy={true} smooth={true} offset={50} duration={500} delay={100}
               aria-label="Our Team"
               title="Our Team"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-blue-500 hover:text-red-500 cursor-pointer transition duration-300"
             >
               Team
             </Link>
@@ -78,7 +78,7 @@ export const Nav = () => {
               to="Achievement" spy={true} smooth={true} offset={50} duration={500} delay={100}
               aria-label="Our Achievements"
               title="Our Achievements"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-blue-500 hover:text-red-500 cursor-pointer transition duration-300"
             >
               Achievements
             </Link>

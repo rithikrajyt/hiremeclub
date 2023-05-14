@@ -1,5 +1,14 @@
 import React from "react";
 import img1 from "../images/hero.jpg";
+import { Helmet } from "react-helmet";
+
+<Helmet>
+    <script
+        src="https://getlaunchlist.com/js/widget-diy.js"
+        type="text/javascript"
+        defer
+    />
+</Helmet>
 
 export const Header = () => {
   return (
@@ -26,16 +35,19 @@ export const Header = () => {
             </p>
           </div>
           <div className="flex items-center">
-            <form className="flex flex-wrap w-full mb-4 md:px-4 flex-col md:w-3/4 space-y-4">
+            <form className="flex flex-wrap w-full mb-4 md:px-4 flex-col md:w-3/4 space-y-4" action="https://getlaunchlist.com/s/KdXbFy"
+    method="POST">
               <input
                 placeholder="Email"
                 required=""
+                name="email"
                 type="email"
                 className="flex flex-col md:2 flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
               />
                 <input
                 placeholder="Company Name"
                 required=""
+                name="company_name"
                 type="text"
                 className="flex-grow w-full h-12 px-4 mb-2 p-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline "
               />

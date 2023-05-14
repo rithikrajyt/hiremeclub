@@ -1,6 +1,6 @@
-import img1 from "../images/download.png"
-import img2 from "../images/download (2).png"
-import img3 from "../images/123.jpg"
+import img1 from "../images/download.png";
+import img2 from "../images/download (2).png";
+import img3 from "../images/123.jpg";
 
 export const Achievement = () => {
   return (
@@ -9,7 +9,7 @@ export const Achievement = () => {
         {/* <p className="mb-1 text-xs font-semibold tracking-wide uppercase md:mb-2">
           New History
         </p> */}
-         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
             <svg
               viewBox="0 0 52 24"
@@ -37,17 +37,15 @@ export const Achievement = () => {
           </span>{" "}
           Our Achievements
         </h2>
+        <p className="text-base text-gray-700 md:text-lg"></p>
         <p className="text-base text-gray-700 md:text-lg">
-        
-        </p>
-        <p className="text-base text-gray-700 md:text-lg">
-        Honoring Our Outstanding Achievements
+          Honoring Our Outstanding Achievements
         </p>
       </div>
       <div className="grid gap-6 row-gap-5 lg:grid-cols-3">
-        <div>
+        <div className="border-4 border-gray-300 rounded-lg p-3">
           <img
-            className="object-cover w-full h-64 mb-6 rounded shadow-lg lg:h-80 xl:h-96"
+            className="object-cover w-full h-64 mb-6 rounded shadow-2xl-lg lg:h-80 xl:h-96"
             src={img1}
             alt=""
           />
@@ -55,14 +53,13 @@ export const Achievement = () => {
             Runner-up At Eureka 2023- IIT Bombay
           </h5>
           <p className="text-gray-700">
-            We showcased our expertise and innovation in AI-based shortlisting,
-            emerging as the runner-ups in the Eureka Business Plan Competition
-            and winning a cash prize of 1 lakh rupees.
+            Runner-ups in Eureka Business Plan Competition, winning 1 lakh
+            rupees for solving Intern hiring problem by startups.
           </p>
         </div>
-        <div>
+        <div className="border-4 border-gray-300 rounded-lg p-3">
           <img
-            className="object-cover w-full h-64 mb-6 rounded shadow-lg lg:h-80 xl:h-96"
+            className="object-cover w-full h-64 mb-6 rounded shadow-2xl-lg lg:h-80 xl:h-96"
             src={img3}
             alt=""
           />
@@ -70,14 +67,13 @@ export const Achievement = () => {
             Finalist at E-Summit 2023- IIT Roorkee
           </h5>
           <p className="text-gray-700">
-            We proudly emerged as finalists in the prestigious E-Summit 2023 IIT
-            Roorkee, showcasing our exceptional performance and innovative
-            approach in AI-based shortlisting.
+            E-Summit 2023 IIT Roorkee finalist with startup intern hiring
+            solution.
           </p>
         </div>
-        <div>
+        <div className="border-4 border-gray-300 rounded-lg p-3">
           <img
-            className="object-cover w-full h-64 mb-6 rounded shadow-lg lg:h-80 xl:h-96"
+            className="object-cover w-full h-64 mb-6 rounded shadow-2xl-lg lg:h-80 xl:h-96"
             src={img2}
             alt=""
           />
