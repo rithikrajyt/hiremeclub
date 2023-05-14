@@ -20,7 +20,8 @@ export const Header = () => {
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
               Revolutionize your hiring process with our AI-based shortlisting
-              startup. Stay updated on our latest product launches and become
+              startup.
+              Stay updated on our latest product launches and become
               one of the early users of our product.<br></br> Subscribe now!
             </p>
           </div>

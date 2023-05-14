@@ -1,12 +1,10 @@
 import { useState } from "react";
-import { Link } from 'react-router-dom';
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from 'react-scroll';
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <BrowserRouter>
     <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div class="relative flex items-center justify-between">
         <a
@@ -37,7 +35,7 @@ export const Nav = () => {
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <Link
-              to="/feature"
+              to="Feature" spy={true} smooth={true} offset={50} duration={500} delay={100}
               aria-label="Our Feature"
               title="Our Feature"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -47,7 +45,7 @@ export const Nav = () => {
           </li>
           <li>
             <Link
-              to="/feature2"
+              to="Why" spy={true} smooth={true} offset={50} duration={500} delay={100}
               aria-label="Why to choose us?"
               title="Why to choose us?"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -57,7 +55,7 @@ export const Nav = () => {
           </li>
           <li>
             <Link
-              to="/step"
+              to="Step" spy={true} smooth={true} offset={50} duration={500} delay={100}
               aria-label="3 Step Process"
               title="3 Step Process"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -67,7 +65,7 @@ export const Nav = () => {
           </li>
           <li>
             <Link
-              to="/team"
+              to="Team" spy={true} smooth={true} offset={50} duration={500} delay={100}
               aria-label="Our Team"
               title="Our Team"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -77,7 +75,7 @@ export const Nav = () => {
           </li>
           <li>
             <Link
-              to="/achievement"
+              to="Achievement" spy={true} smooth={true} offset={50} duration={500} delay={100}
               aria-label="Our Achievements"
               title="Our Achievements"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -162,7 +160,7 @@ export const Nav = () => {
                   <ul class="space-y-4">
                     <li>
                       <Link
-                        to="/feature"
+                        to="Feature" spy={true} smooth={true} offset={50} duration={500} delay={100}
                         aria-label="Our Feature"
                         title="Our Feature"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -172,7 +170,7 @@ export const Nav = () => {
                     </li>
                     <li>
                       <Link
-                        to="/feature2"
+                        to="Why" spy={true} smooth={true} offset={50} duration={500} delay={100}
                         aria-label="Why to choose us?"
                         title="Why to choose us?"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -182,7 +180,7 @@ export const Nav = () => {
                     </li>
                     <li>
                       <Link
-                        to="/step"
+                        to="Step" spy={true} smooth={true} offset={50} duration={500} delay={100}
                         aria-label="3 Step Process"
                         title="3 Step Process"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -192,7 +190,7 @@ export const Nav = () => {
                     </li>
                     <li>
                       <Link
-                        to="/team"
+                        to="Team" spy={true} smooth={true} offset={50} duration={500} delay={100}
                         aria-label="Our Team"
                         title="Our Team"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -202,7 +200,7 @@ export const Nav = () => {
                     </li>
                     <li>
                       <Link
-                        to="/achievement"
+                        to="Achievement" spy={true} smooth={true} offset={50} duration={500} delay={100}
                         aria-label="Our Achievements"
                         title="Our Achievements"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -218,6 +216,5 @@ export const Nav = () => {
         </div>
       </div>
     </div>
-    </BrowserRouter>
   );
 };
