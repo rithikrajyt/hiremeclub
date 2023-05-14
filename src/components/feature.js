@@ -1,3 +1,9 @@
+import recruitment from "../images/recruitment.png";
+import hired from "../images/hired.png";
+import match from "../images/match.png";
+import group from "../images/group.png";
+
+
 export const Feature = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -45,20 +51,8 @@ export const Feature = () => {
       <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+            <div className="w-40 h-40">
+              <img src={recruitment} alt="recruitment icon" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">
               AI-powered shortlisting process
@@ -68,30 +62,11 @@ export const Feature = () => {
               shortlisting the most skilled candidates for our club.
             </p>
           </div>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div className="w-40 h-40">
+              <img src={hired} alt="instant hired icon" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">Instant Hiring </h6>
             <p className="mb-3 text-sm text-gray-900">
@@ -99,30 +74,11 @@ export const Feature = () => {
               skilled candidates with verified proof of work.
             </p>
           </div>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div className="w-40 h-40">
+              <img src={match} alt="perfect matching candidate icon" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">
               AI-based Matchmaking process
@@ -132,30 +88,11 @@ export const Feature = () => {
               the job description.
             </p>
           </div>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div className="w-40 h-40">
+              <img src={group} alt="exclusive commmunity icon" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">
               Exclusive Community
@@ -165,13 +102,6 @@ export const Feature = () => {
               person can't enter our club
             </p>
           </div>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </a>
         </div>
       </div>
     </div>

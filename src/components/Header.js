@@ -20,22 +20,28 @@ export const Header = () => {
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
               Revolutionize your hiring process with our AI-based shortlisting
-              startup.
-              Stay updated on our latest product launches and become
-              one of the early users of our product.<br></br> Subscribe now!
+              startup.<br></br>
+              <span style={{ fontWeight: 'bold' }}>Stay updated on our latest product launches and become
+              one of the early users of our product.</span><br></br><span className="inline-block text-deep-purple-accent-400 ml-2 font-bold shadow">Sign up for early access!</span>
             </p>
           </div>
           <div className="flex items-center">
-            <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-4">
+            <form className="flex flex-wrap w-full mb-4 md:px-4 flex-col md:w-3/4 space-y-4">
               <input
                 placeholder="Email"
                 required=""
+                type="email"
+                className="flex flex-col md:2 flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+              />
+                <input
+                placeholder="Company Name"
+                required=""
                 type="text"
-                className="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                className="flex-grow w-full h-12 px-4 mb-2 p-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline "
               />
               <button
                 type="submit"
-                className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none rounded"
               >
                 Subscribe
               </button>
@@ -44,7 +50,7 @@ export const Header = () => {
         </div>
       </div>
       <div className="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
-        <img src={img1} className="" alt="" />
+        <img src={img1} className="" alt="intern hiring Process" />
       </div>
     </div>
   );
