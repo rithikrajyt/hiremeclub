@@ -6,7 +6,7 @@ import { Feature } from "./components/feature";
 import { Feature2 } from "./components/Feature2";
 import { Step } from "./components/step";
 import { Team } from "./components/Team";
-import { Achievement } from "./components/achievement";
+//import { Achievement } from "./components/achievement";
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -26,9 +26,9 @@ function App() {
       <Element name="Team" className="section">
       <Team />
       </Element>
-      <Element name="Achievement" className="section">
+     {/* <Element name="Achievement" className="section"> 
       <Achievement />
-      </Element>
+      </Element>*/}
       <Footer />
 
     </>

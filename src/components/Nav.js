@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
+import favicon from "../images/favicon.png";
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,76 +14,87 @@ export const Nav = () => {
           title="Company"
           class="inline-flex items-center"
         >
-          <svg
-            class="w-8 text-deep-purple-accent-400"
-            viewBox="0 0 24 24"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeMiterlimit="10"
-            stroke="currentColor"
-            fill="none"
-          >
-            <rect x="3" y="1" width="7" height="12" />
-            <rect x="3" y="17" width="7" height="6" />
-            <rect x="14" y="1" width="7" height="6" />
-            <rect x="14" y="11" width="7" height="12" />
-          </svg>
-          <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-            HiremeClub
+          <img src={favicon} alt="Logo" class="h-16 w-16 mr-0" />
+          <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 font-custom">
+            Hireme<span class="text-blue-500">Club</span>
           </span>
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <Link
-              to="Feature" spy={true} smooth={true} offset={50} duration={500} delay={100}
+              to="Feature"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              delay={100}
               aria-label="Our Feature"
               title="Our Feature"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-blue-500 hover:text-red-500 cursor-pointer transition duration-300"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-500 cursor-pointer transition duration-300"
             >
               Features
             </Link>
           </li>
           <li>
             <Link
-              to="Why" spy={true} smooth={true} offset={50} duration={500} delay={100}
+              to="Why"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              delay={100}
               aria-label="Why to choose us?"
               title="Why to choose us?"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-blue-500 hover:text-red-500 cursor-pointer transition duration-300"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-accent-500 text-blue-500 hover:text-blue-500 cursor-pointer transition duration-300"
             >
               Why us?
             </Link>
           </li>
           <li>
             <Link
-              to="Step" spy={true} smooth={true} offset={50} duration={500} delay={100}
+              to="Step"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              delay={100}
               aria-label="3 Step Process"
               title="3 Step Process"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-blue-500 hover:text-red-500 cursor-pointer transition duration-300"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-accent-500 text-blue-500 hover:text-blue-500 cursor-pointer transition duration-300"
             >
               3-Step Process
             </Link>
           </li>
           <li>
             <Link
-              to="Team" spy={true} smooth={true} offset={50} duration={500} delay={100}
+              to="Team"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              delay={100}
               aria-label="Our Team"
               title="Our Team"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-blue-500 hover:text-red-500 cursor-pointer transition duration-300"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-accent-500 text-blue-500 hover:text-blue-500 cursor-pointer transition duration-300"
             >
               Team
             </Link>
           </li>
-          <li>
+        {/*  <li>
             <Link
-              to="Achievement" spy={true} smooth={true} offset={50} duration={500} delay={100}
+              to="Achievement"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              delay={100}
               aria-label="Our Achievements"
               title="Our Achievements"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-blue-500 hover:text-red-500 cursor-pointer transition duration-300"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-accent-500 text-blue-500 hover:text-blue-500 cursor-pointer transition duration-300"
             >
               Achievements
             </Link>
-          </li>
+  </li>*/}
         </ul>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>{/*  We can add login or signup in this sections */}</li>
@@ -91,7 +103,7 @@ export const Nav = () => {
           <button
             aria-label="Open Menu"
             title="Open Menu"
-            class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+            class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-blue-50 focus:bg-blue-50"
             onClick={() => setIsMenuOpen(true)}
           >
             <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -110,7 +122,7 @@ export const Nav = () => {
             </svg>
           </button>
           {isMenuOpen && (
-            <div class="absolute top-0 left-0 w-full">
+            <div class="absolute top-0 left-0 w-full z-10">
               <div class="p-5 bg-white border rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
                   <div>
@@ -120,21 +132,6 @@ export const Nav = () => {
                       title="Company"
                       class="inline-flex items-center"
                     >
-                      <svg
-                        class="w-8 text-deep-purple-accent-400"
-                        viewBox="0 0 24 24"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeMiterlimit="10"
-                        stroke="currentColor"
-                        fill="none"
-                      >
-                        <rect x="3" y="1" width="7" height="12" />
-                        <rect x="3" y="17" width="7" height="6" />
-                        <rect x="14" y="1" width="7" height="6" />
-                        <rect x="14" y="11" width="7" height="12" />
-                      </svg>
                       <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                         Company
                       </span>
@@ -160,54 +157,79 @@ export const Nav = () => {
                   <ul class="space-y-4">
                     <li>
                       <Link
-                        to="Feature" spy={true} smooth={true} offset={50} duration={500} delay={100}
+                        to="Feature"
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        delay={100}
                         aria-label="Our Feature"
                         title="Our Feature"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-accent-500 cursor-pointer"
                       >
                         Features
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="Why" spy={true} smooth={true} offset={50} duration={500} delay={100}
+                        to="Why"
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        delay={100}
                         aria-label="Why to choose us?"
                         title="Why to choose us?"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-accent-500 cursor-pointer"
                       >
                         Why us?
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="Step" spy={true} smooth={true} offset={50} duration={500} delay={100}
+                        to="Step"
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        delay={100}
                         aria-label="3 Step Process"
                         title="3 Step Process"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-accent-500 cursor-pointer"
                       >
                         3-Step Process
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="Team" spy={true} smooth={true} offset={50} duration={500} delay={100}
+                        to="Team"
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        delay={100}
                         aria-label="Our Team"
                         title="Our Team"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-accent-500 cursor-pointer"
                       >
                         Team
                       </Link>
                     </li>
-                    <li>
+                    {/*<li>
                       <Link
-                        to="Achievement" spy={true} smooth={true} offset={50} duration={500} delay={100}
+                        to="Achievement"
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        delay={100}
                         aria-label="Our Achievements"
                         title="Our Achievements"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-accent-500"
                       >
                         Achievements
                       </Link>
-                    </li>
+                    </li>*/}
                   </ul>
                 </nav>
               </div>

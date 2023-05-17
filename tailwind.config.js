@@ -6,7 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      fontFamily: {
+        custom: ['"Roboto"', 'sans-serif'],
+      },
       colors: {
         red: {
           '50': '#ffebee',
