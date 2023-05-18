@@ -78,13 +78,11 @@ export const Achievement = () => {
             alt=""
           />
           <h5 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-            Finalist at Ideathon 4.0
+            Winner at Ideathon 4.0 at NMIT,Bangalore
           </h5>
           <p className="text-gray-700">
-            Recognized as finalists at the renowned Ideathon 4.0, our
-            exceptional performance and groundbreaking approach in AI-based
-            shortlisting solidified our position among the top contenders in
-            this highly competitive competition.
+            We were the winners at IDEATHON 4.0 organized by ENIGMA with our
+            startup plan, HiremeClub.AI
           </p>
         </div>
       </div>
