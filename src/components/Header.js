@@ -12,7 +12,10 @@ import { Helmet } from "react-helmet";
 
 export const Header = () => {
   return (
-    <div className="relative px-4 pt-[90px] pb-[115px] mx-auto md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
+    <div className="relative px-4 lg:pt-[90px] lg:pb-[80px] mx-auto md:px-2 xl:px-20 sm:max-w-xl md:max-w-full">
+      <div className="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
+        <img src={img1} className="" alt="intern hiring Process" />
+      </div>
       <div className="max-w-xl mx-auto lg:max-w-screen-xl">
         <div className="mb-16 lg:max-w-lg lg:mb-0">
           <div className="max-w-xl mb-6">
@@ -22,7 +25,7 @@ export const Header = () => {
               </p>
             </div>
             <h2 className="max-w-lg mb-6 font-sans text-15xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              Hire interns in
+              Hire Candidates in
               <span className="inline-block text-blue-accent-400 ml-2">
                 24 Hours.
               </span>
@@ -55,9 +58,7 @@ export const Header = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
-        <img src={img1} className="" alt="intern hiring Process" />
-      </div>
+      
     </div>
   );
 };

@@ -1,8 +1,7 @@
 import cv from "../images/cv.png";
-import assignment from "../images/assignment.png";
-import interview from "../images/interview.png";
+import assignment from "../images/videointerview.png";
 import proof from "../images/proof.png";
-
+import interview from "../images/4click.png"
 
 export const Step = () => {
   return (
@@ -86,7 +85,7 @@ export const Step = () => {
           <div className="w-2/3">
         <img src={assignment} alt="Assignment icon" />
 </div>
-            <p className="text-2xl font-bold w-2/3"> Assignment</p>
+            <p className="text-2xl font-bold w-2/3"> Virtual Interview</p>
             <svg
               className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
               stroke="currentColor"
@@ -111,16 +110,15 @@ export const Step = () => {
             </svg>
           </div>
           <p className="text-gray-600">
-            Candidates are given AI-generated assignments related to their
-            field, which are automatically checked.
+          Unlock the power of AI with our GPT-3.5 powered virtual interviews, revolutionizing the hiring process
           </p>
         </div>
         <div>
           <div className="flex flex-col items-center justify-between mb-6">
           <div className="w-2/3">
-          <img src={interview} alt="Interview Icon" />
+          <img src={interview} alt="Communication-Skills Icon" />
 </div>
-            <p className="text-2xl font-bold w-2/3">Technical Interview</p>
+            <p className="text-2xl font-bold w-2/3">Communication Skills Analysis</p>
             <svg
               className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
               stroke="currentColor"
@@ -145,8 +143,7 @@ export const Step = () => {
             </svg>
           </div>
           <p className="text-gray-600">
-            We conduct a technical interview with top candidates to ensure the
-            best fit for your organization.
+          Evaluate communication skills effortlessly with our AI-powered analysis using the CERF framework
           </p>
         </div>
         <div>

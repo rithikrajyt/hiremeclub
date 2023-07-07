@@ -1,8 +1,7 @@
 import recruitment from "../images/recruitment.png";
 import hired from "../images/hired.png";
-import match from "../images/match.png";
-import group from "../images/group.png";
-
+import day from "../images/15day.png"
+import click from "../images/4click.png"
 
 export const Feature = () => {
   return (
@@ -39,7 +38,7 @@ export const Feature = () => {
             </svg>
             {/* <span className="relative"></span> */}
           </span>{" "}
-          Our AI-based Solution Streamlines the Hiring Process
+          Features
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
           Finding the right candidate can be a daunting and time-consuming
@@ -49,9 +48,9 @@ export const Feature = () => {
         </p>
       </div>
       <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+        <div className="flex flex-col justify-center items-center p-5 border rounded shadow-sm">
           <div>
-            <div className="w-40 h-40">
+            <div className="w-40 h-40 flex justify-center items-center">
               <img src={recruitment} alt="recruitment icon" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">
@@ -63,9 +62,9 @@ export const Feature = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+        <div className="flex flex-col justify-center items-center p-5 border rounded shadow-sm">
           <div>
-          <div className="w-40 h-40">
+          <div className="w-40 h-40 flex justify-center items-center">
               <img src={hired} alt="instant hired icon" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">Instant Hiring </h6>
@@ -75,31 +74,29 @@ export const Feature = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+        <div className="flex flex-col justify-center items-center p-5 border rounded shadow-sm">
           <div>
-          <div className="w-40 h-40">
-              <img src={match} alt="perfect matching candidate icon" />
+          <div className="w-40 h-40 flex justify-center items-center">
+              <img src={day} alt="15 day candidate-back-guarantee icon" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">
-              AI-based Matchmaking process
+              15 Day Candidate-Back-Guarantee
             </h6>
             <p className="mb-3 text-sm text-gray-900">
-              The HR will be suggested the most suited candidates according to
-              the job description.
+            Experience peace of mind with our 15-day candidate back guarantee, ensuring your satisfaction with every hire
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+        <div className="flex flex-col justify-center items-center p-5 border rounded shadow-sm">
           <div>
-          <div className="w-40 h-40">
-              <img src={group} alt="exclusive commmunity icon" />
+          <div className="w-40 h-40 flex justify-center items-center">
+              <img src={click} alt="4 click hiring icon" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">
-              Exclusive Community
+              Hire in just 4 Clicks
             </h6>
             <p className="mb-3 text-sm text-gray-900">
-              Exclusive Community of best talents of India because any random
-              person can't enter our club
+            Hire top talent effortlessly with just four clicks using our streamlined process
             </p>
           </div>
         </div>

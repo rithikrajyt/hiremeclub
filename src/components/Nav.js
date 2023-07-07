@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 import favicon from "../images/favicon.png";
+import iconsmall from "../images/iconsmall.png"
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,8 +11,8 @@ export const Nav = () => {
       <div class="relative flex items-center justify-between">
         <a
           href="/"
-          aria-label="Company"
-          title="Company"
+          aria-label="HiremeClub Logo"
+          title="HiremeClub Logo"
           class="inline-flex items-center"
         >
           <img src={favicon} alt="Logo" class="h-16 w-16 mr-0" />
@@ -37,22 +38,22 @@ export const Nav = () => {
           </li>
           <li>
             <Link
-              to="Why"
+              to="Categories"
               spy={true}
               smooth={true}
               offset={50}
               duration={500}
               delay={100}
-              aria-label="Why to choose us?"
-              title="Why to choose us?"
+              aria-label="Candidate's Categories"
+              title="Candidate's Categories"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-accent-500 text-blue-500 hover:text-blue-500 cursor-pointer transition duration-300"
             >
-              Why us?
+              Categories
             </Link>
           </li>
           <li>
             <Link
-              to="Step"
+              to="Categories"
               spy={true}
               smooth={true}
               offset={50}
@@ -80,7 +81,7 @@ export const Nav = () => {
               Team
             </Link>
           </li>
-        {/*  <li>
+          {/*  <li>
             <Link
               to="Achievement"
               spy={true}
@@ -128,12 +129,13 @@ export const Nav = () => {
                   <div>
                     <a
                       href="/"
-                      aria-label="Company"
-                      title="Company"
+                      aria-label="HiremeClub logo"
+                      title="HiremeClub logo"
                       class="inline-flex items-center"
                     >
-                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
+                      <img src={iconsmall} alt="Logo" class="h-16 w-16 mr-0" />
+                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 font-custom">
+                        Hireme<span class="text-blue-500">Club</span>
                       </span>
                     </a>
                   </div>

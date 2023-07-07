@@ -17,11 +17,11 @@ function App() {
       <Element name="Feature" className="section">
       <Feature />
       </Element>
-      <Element name="Why" className="section">
-      <Feature2 />
-      </Element>
       <Element name="Step" className="section">
       <Step />
+      </Element>
+      <Element name="Categories" className="section">
+      <Feature2 />
       </Element>
       <Element name="Team" className="section">
       <Team />
